@@ -118,22 +118,6 @@ year = int(input('hola ' + name + ' dime  tu edad'))
 
 print('tu nombre es ' + name + ' y tu edad es ' + str(year))
 --------------------------------------------------------------
-
------ejercicio 7 resulto----------------------------------------
-print("votacion")
-years = int(input("Digite su edad"))
-sex = int(input("digite 1 para masculino 2 para femenino"))
-
-if (years > 17):     
-    if (sex == 1):
-        print("felicidades arriba el patriarcado puedes votar")
-    if (sex == 2):
-        print("Nel pastel no vas a votar mujer")
-        
-        
-if (years < 17):
-    print("largate de aqui niño")
----------------------------------------------------------	
 numA =  int(input('dime el primer numero'))
 numB =  int(input('dime el segundo numero'))
 numC =  int(input('dime el tercer numero'))
@@ -165,3 +149,21 @@ if (numA < 32):
 
 else:
     print('esa fecha es imposibleee')
+-------------------------------------------------------------------
+nom = str(input('dime tu nombre'))
+sexo =  str(input('dime tu sexo escribe M o F'))
+years =  int(input('dime tu edad'))
+
+if (years > 18):
+    print('hola ' + nom + ' de sexo ' + sexo + ' puedes votar')
+
+
+else:
+    print('lo siento no puedes votar') 
+--------------------------------------------------------------------     
+num =  int(input('dime el numero para imprimir su tabla de multiplicar'))
+
+for i in range(11):
+    R = num * i
+
+    print(R)
